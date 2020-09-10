@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Retail-i</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+<body>
+	<section class="top">
+
+		<header>
+			<div >
+
+				<img src="logo.png" alt="logo" class="logo">
+				
+				<nav>
+					<ul class="navbar" id="mynav" >					
+						<li> <a href="">About us </a></li>
+						<li> <a href="">Solutions</a></li>
+						<li> <a href="">Contact US</a></li>
+						<li><a href="javascript:void(0);" class="ic" onclick="myFunction()"> <i class="fa fa-bars"></i></a></li>
+						
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<h1> Discover the power of in-store shopper analytics</h1>
+		<p>Retail-i uses intuitive tracking and analysis to provide direct and real time access
+		 into the activity of your customers at brick & mortar stores for effective profiling.</p>
+
+	</section>
+
+	<section class="middle">
+		
+		
+			<img src="Group.png" class="img1">
+
+
+		
+		<div class="center">
+			<h1>Who <span class="red"> We Are </span></h1>
+			<p>Retail-I is a retail analytics solution built for the African market that brings e-commerce style analytics to Brick and Mortar stores, 
+			through the analysis of shopper behaviour and sentiment. We have created a robust and easy to use platform for generating actionable 
+		    insights from our clients video and transactional data. </p>
+			
+			<img src="image3.png" class="img3">
+		</div>
+			
+		
+	
+	</section>
+
+	<section class="middle2">
+		<div>
+			<div class="solutions">
+				<h2>Our <span class="red"> Solutions</span></h2>
+				<p id="size">Customer conversion, satisfaction and retention is central to every line of code, algorithm and predictive model we create. So, we are providing a myriad of  
+				tools to aid Retailers and FMCG'S in their growth strategies.</p>
+
+				<div class="tool" >
+					<div id="tool1">
+						<img class="icon3" src="cctv.png">
+						<h3 class="red"> Video Analysis</h3> 
+						<p> Using our plug and play software, which can be integrated into existing security camera infrastructure, counting traffic and tracking customer activity becomes a reality.</p>
+					</div>
+					
+					<div id="tool2">
+						<img class="icon3" src="carts.jpg">
+						<h3 class="red">  Conversion rate </h3> 
+						<p> Identify buying patterns and basket size of unique and returning customers, through the combination of data from point of sale and loyalty schemes.</p>
+					</div>
+
+					<div id="tool3">
+						<img class="icon3" src="board1.jpg">
+						<h3 class="red"> Dashboard Reporting </h3> 
+						<p> An interactive and intuitive dashboard interface generates visualizations from the huge data collected for generating deep actionable insights.</p>
+					</div>
+				</div>
+
+			</div>
+
+	</section>
+
+	<section class="middle3">
+
+			<img src="group9.png" alt="image" class="vis">
+
+
+			<div class="info">		
+
+				<div>
+					<h2 class="red"> For Retailers</h2>
+					<h3 class="line1"> Shopper Segmentation</h3> 
+					<p class="line"> Know each customer that steps into your store and generate targeted campaigns and promotions suited for each customer.</p>
+
+					<h3 class="line1">Footfall analysis</h3>
+					<p class="line"> Track the movement of shoppers across your store and identify high performing spots for effective advertising.</p>
+				</div>
+
+				<div>
+
+					<h2 class="red"> For FMCG'S</h2>
+					<h3 class="line1"> Sales and Marketing</h3> 
+					<p class="line"> Grow in-store marketing ROI, through access to live updates on the performance of your products and end consumer behaviour in store.</p>
+
+				</div>
+			</div>
+
+
+
+		</div>
+	</section>
+
+
+	<section class="bottom">
+		<div class="bottom1">
+			<h2>Interested in discovering the power of shopper analytics</h2>
+			<a href="">Get Started</a>  
+		</div>
+
+	</section>
+
+	<section class="footer">
+		
+
+		<div class="container">
+
+			<div class="container1">
+				<h2>Get in Touch</h2>
+
+				<form>
+					<label> <input class="contact" type="text" id="Name" name="Name" placeholder="Name"></label>
+
+					<label>  <input class="contact" type="email" id="email" name="Email" placeholder="Email"></label>
+
+					<label> <input class="contact" type="telephone" id="number" name="number" placeholder="Phone Number"></label>
+
+					<label>  <input class="contact" type="text" id="Job" name="Job" placeholder="Job Role"></label>
+
+					<label>  <textarea type="text" id="Message" name="message" placeholder="Message"></textarea> </label>
+					<p></p>
+
+					<input class="btn-submit" type="Submit" name="Submit">
+
+				</form>
+			</div>
+
+			<div class="container2">
+				<img class="icon2" src="logo.png">
+
+				<table>
+					<tr>
+						<td><img src="call.png" class="icon"> </td>
+						<td>+234813xxxxx</td>
+					</tr>
+					<tr>
+						<td><img src="envelope.png" class="icon"></td>
+						<td>info@techplus.com.ng</td>
+						
+					</tr>
+					<tr>
+						<td><img src="map.png" class="icon"></td>
+						<td>15 Sobo Arobiodu, Ikeja GRA, Lagos Nigeria</td>
+
+					</tr>
+				</table>
+
+				<a href="">View Map</a>
+		   </div>
+
+		</div>
+
+		<div>
+			<p class="end">Xordium Limited 2020, All rights reserved.</p>
+		</div>
+		
+	</section>
+
+
+	<script>
+		function myFunction() {
+  		var x = document.getElementById("mynav");
+ 		if (x.className === "navbar") {
+    	x.className += " responsive";
+    					} 
+  		else {
+    	x.className = "navbar";
+  				}
+			}
+	</script>
+
+</body>
+</html>
