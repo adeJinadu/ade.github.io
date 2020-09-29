@@ -5,6 +5,7 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,300&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js" type="text/javascript"></script>
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
@@ -28,9 +29,9 @@
 			</div>
 		</header>
 
-		<h1> Discover the power of in-store shopper analytics</h1>
-		<p>Retail-i uses intuitive tracking and analysis to provide direct and real time access
-		 into the activity of your customers at brick & mortar stores for effective profiling.</p>
+		<div id="animate"></div>
+		<!-- <p>Retail-i uses intuitive tracking and analysis to provide direct and real time access
+		 into the activity of your customers at brick & mortar stores for effective profiling.</p> -->
 
 	</section>
 
@@ -44,8 +45,9 @@
 		<div class="center">
 			<h1>Who <span class="red"> We Are </span></h1>
 			<p>Retail-I is a retail analytics solution built for the African market that brings e-commerce style analytics to Brick and Mortar stores, 
-			through the analysis of shopper behaviour and sentiment. We have created a robust and easy to use platform for generating actionable 
-		    insights from our clients video and transactional data. </p>
+			through the analysis of shopper behaviour and sentiment.</p>
+			<!-- We have created a robust and easy to use platform for generating actionable 
+		    insights from our clients video and transactional data. -->
 			
 			<img src="image3.png" class="img3">
 		</div>
@@ -58,14 +60,16 @@
 		<div>
 			<div class="solutions">
 				<h2>Our <span class="red"> Solutions</span></h2>
-				<p id="size">Customer conversion, satisfaction and retention is central to every line of code, algorithm and predictive model we create. So, we are providing a myriad of  
-				tools to aid Retailers and FMCG'S in their growth strategies.</p>
+				<p id="size">Customer conversion, satisfaction and retention is central to every line of code, algorithm and predictive model we create.</p>
+
+				<!-- So, we are providing a myriad of  
+				tools to aid Retailers and FMCG'S in their growth strategies. -->
 
 				<div class="tool" >
 					<div id="tool1">
 						<img class="icon3" src="cctv.png">
 						<h3 class="red"> Video Analysis</h3> 
-						<p> Using our plug and play software, which can be integrated into existing security camera infrastructure, counting traffic and tracking customer activity becomes a reality.</p>
+						<p> With our plug and play software integrated into existing security camera infrastructure, counting traffic and tracking customer activity is a reality.</p>
 					</div>
 					
 					<div id="tool2">
@@ -87,7 +91,7 @@
 
 	<section class="middle3">
 
-			<img src="Group9.png" alt="image" class="vis">
+			<img src="group9.png" alt="image" class="vis">
 
 
 			<div class="info">		
@@ -109,17 +113,13 @@
 
 				</div>
 			</div>
-
-
-
-		</div>
 	</section>
 
 
 	<section class="bottom">
 		<div class="bottom1">
 			<h2>Interested in discovering the power of shopper analytics</h2>
-			<a href="">Get Started</a>  
+			<a href="#contact">Get Started</a>  
 		</div>
 
 	</section>
@@ -132,7 +132,7 @@
 			<div class="container1">
 				<h2>Get in Touch</h2>
 
-				<form>
+				<form id="contact">
 					<label> <input class="contact" type="text" id="Name" name="Name" placeholder="Name"></label>
 
 					<label>  <input class="contact" type="email" id="email" name="Email" placeholder="Email"></label>
@@ -180,8 +180,10 @@
 		
 	</section>
 
+	<script src="retail-i.js"></script>
 
-	<script>
+
+	<!-- <script>
 		function myFunction() {
   		var x = document.getElementById("mynav");
  		if (x.className === "navbar") {
@@ -191,7 +193,7 @@
     	x.className = "navbar";
   				}
 			}
-	</script>
+	</script> -->
 
 </body>
 </html>
