@@ -419,10 +419,8 @@ table{
 
 }
 
+@media screen and (max-width: 680px){
 
-
-@media screen /*and (min-width : 450px) */and (max-width: 680px){
-	
 
 	.navbar a:not(:first-child) {display: none;}
 
@@ -516,7 +514,6 @@ table{
 
 	.solutions h2{
 		font-size: 50px;
-
 	}
 
 	.middle3{
@@ -587,11 +584,8 @@ table{
 
 }
 
-
-
-
-
 @media screen and (max-width: 400px){
+
 
 
 	.top{
@@ -787,10 +781,7 @@ table{
 
 	}
 
-
 	}
-
-
 
 
 
